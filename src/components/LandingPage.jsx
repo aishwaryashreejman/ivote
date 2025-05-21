@@ -48,7 +48,7 @@ const LandingPage = () => {
           Vote securely and conveniently from anywhere in the world.
         </p>
         <button className="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded">
-          Get Started
+          <Link to="/login">Get Started</Link>
         </button>
       </section>
 
@@ -104,7 +104,7 @@ const LandingPage = () => {
     </section>
     
     
-<section id="feat" className="py-16 px-4 sm:px-8 max-w-4xl mx-auto">
+<section id="features" className="py-16 px-4 sm:px-8 max-w-4xl mx-auto">
   <h3 className="text-2xl font-bold mb-16 text-center">Features</h3>
   <div className="relative">
     {/* Timeline vertical line – only visible on medium screens and up */}
